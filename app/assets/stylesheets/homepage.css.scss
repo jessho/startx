@@ -1,4 +1,4 @@
-//Stylings for the homepage that are non-specific to any section
+//Stylings for the homepage that are non-specific to any homepage section
 
 body {
   color: #706d67;
@@ -38,3 +38,231 @@ a:hover {
 p {
   margin: 0 0 30px;
 }
+
+hr {
+  border-top: 10px solid #dddad4;
+  border-bottom: none;
+  margin: 0;
+  width: 77.66%;
+}
+
+.home_text {
+  width: 77.66%;
+  border-top: 10px solid #dddad4;
+  padding-top: 65px;
+  h2 {
+    font-family: "Bitter", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #53514c;
+    margin-bottom: 15px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  margin-bottom: 55px;
+}
+
+
+.container.main {
+  padding-top: 115px;
+  padding-bottom: 30px;
+  min-height: 600px;
+}
+
+
+section.top.home {
+  padding-top: 98px;
+}
+
+.container, .navbar .container {
+  width: 1150px;
+  max-width: 75%;
+  min-width: 1100px;
+}
+
+.inner_container {
+  margin: 0 9.13%;
+}
+
+section {
+  min-width: 1100px; 
+}
+
+section.home {
+  border-bottom: 1px solid #e1ddd8;
+}
+
+section.even { 
+  background-color: #f7f5f3;
+}
+
+ul.home {
+  display: block;
+  width: 100%;
+  position: relative;
+  list-style: none outside none;
+  margin: 0;
+  padding-bottom: 130px;
+  overflow: hidden;
+  li {
+    .quote {
+      border-top: 5px solid #9bd2f1;
+      margin-bottom: 30px;
+      .quote_box {
+        p {
+          margin-bottom: 0;
+          &.quote_source {
+            margin-top: 25px;
+          }
+        }
+        height: 100%;
+        background-color: #FFFFFF;
+        border: 1px solid #eae9e7;
+        border-bottom: 1px solid #d2d0cf;
+        border-top: none;
+        padding: 20px 15px;
+        position: relative;
+        .quote_source_name {
+          color: #53514c;
+          font-family: "ProximaNovaRgBold", "Myriad Pro", sans serif;
+        }
+        .quote_source_title {
+          color: #b4ada0;
+          font-family: "Bitter", serif;
+          font-style: italic;
+          font-size: 12px;
+        }
+        .quote_triangle_border {
+          width: 0;
+          height: 0;
+          position: absolute;
+          bottom: -21px;
+          left: 15px;
+          border-color: #d2d0cf transparent transparent transparent;
+          border-style: solid;
+          border-width: 10px;
+        }
+        .quote_triangle {
+          width: 0;
+          height: 0;
+          position: absolute;
+          bottom: -19px;
+          left: 15px;
+          border-color: #FFFFFF transparent transparent transparent;
+          border-style: solid;
+          border-width: 10px;
+        }
+      }
+    }
+    display: block;
+    position: relative;
+    float: left;
+    width: 31.90%;
+    p {
+      font-size: 14px;
+    }
+    img {
+      height: 45px;
+      margin-bottom: 10px;
+    }
+  }
+  li.center {
+    margin: 0 2.15%;
+  }
+}
+
+ul.home_with_button {
+  padding-bottom: 35px;
+}
+
+// Quotations
+ul.quotes.home {
+  padding-bottom: 0px;
+  li {
+    height: 100%;
+    .quote {
+      height: 100%;
+      .quote_box {
+        height: 100%;
+      }
+    }
+  }
+}
+
+// "See More" buttons
+div.see_more {
+  border-top: 1px solid #e1dcd7;
+  padding-top: 1px;
+  padding-bottom: 60px;
+  div {
+    border-top: 1px solid #e1dcd7;
+    text-align: center;
+    span {
+      color: #ccc7bf;
+      font-style: italic;
+    }
+  }
+  a, a:hover {
+    color: #706D67;
+    display: block;
+    width: 195px;
+    margin: -3px auto 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "ProximaNovaRgBold", "Myriad Pro", sans serif;
+    font-weight: 500;
+    padding: 8px 5px;
+    border-radius: 0 0 10px 10px;
+    // Old browsers
+    background: #fbf9f9; 
+    // IE9 SVG, needs conditional override of 'filter' to 'none'
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMWRjZDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    // FF3.6+
+    background: -moz-linear-gradient(top,  #fbf9f9 0%, #e1dcd7 100%); 
+    //Chrome,Safari4+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbf9f9), color-stop(100%,#e1dcd7));
+    // Chrome10+ Safari5.1+
+    background: -webkit-linear-gradient(top,  #fbf9f9 0%,#e1dcd7 100%);
+    // Opera 11.10+
+    background: -o-linear-gradient(top,  #fbf9f9 0%,#e1dcd7 100%); 
+    // IE10+
+    background: -ms-linear-gradient(top,  #fbf9f9 0%,#e1dcd7 100%); 
+    // W3C
+    background: linear-gradient(to bottom,  #fbf9f9 0%,#e1dcd7 100%); 
+    // IE6-8
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbf9f9', endColorstr='#e1dcd7',GradientType=0 ); 
+  }
+  a:hover {
+    color: #B70101;
+  }
+}
+
+section.even div.see_more {
+  a, a:hover { 
+    // Old browsers
+    background: #e1dcd7; 
+    // Old browsers
+    background: #f0ede9; 
+    // IE9 SVG, needs conditional override of 'filter' to 'none'
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YwZWRlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlMWRjZDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    // FF3.6+
+    background: -moz-linear-gradient(top,  #f0ede9 0%, #e1dcd7 100%);
+    // Chrome,Safari4+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0ede9), color-stop(100%,#e1dcd7));
+    // Chrome10+,Safari5.1+
+    background: -webkit-linear-gradient(top,  #f0ede9 0%,#e1dcd7 100%); 
+    // Opera 11.10+
+    background: -o-linear-gradient(top,  #f0ede9 0%,#e1dcd7 100%); 
+    // IE10+
+    background: -ms-linear-gradient(top,  #f0ede9 0%,#e1dcd7 100%); 
+    // W3C
+    background: linear-gradient(to bottom,  #f0ede9 0%,#e1dcd7 100%); 
+    // IE6-8
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0ede9', endColorstr='#e1dcd7',GradientType=0 ); 
+  }
+}
+
+

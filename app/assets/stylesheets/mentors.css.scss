@@ -1,5 +1,19 @@
 
 
+h3.featured_mentor, h3.featured_company {
+  color: #23b05d;
+  font-size: 15px;
+}
+
+span.mentor_title, span.mentor_company {
+  display: block
+}
+
+span.mentor_company {
+  color: #b4ada0;
+  font-style: italic; 
+}
+
 
 .mentor_photo {
   background-color: #ffffff;
