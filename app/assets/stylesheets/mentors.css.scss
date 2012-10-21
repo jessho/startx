@@ -1,20 +1,3 @@
-
-
-h3.featured_mentor, h3.featured_company {
-  color: #23b05d;
-  font-size: 15px;
-}
-
-span.mentor_title, span.mentor_company {
-  display: block
-}
-
-span.mentor_company {
-  color: #b4ada0;
-  font-style: italic; 
-}
-
-
 .mentor_photo {
   background-color: #ffffff;
   border: 1px solid #eeecec;
@@ -35,13 +18,14 @@ span.mentor_company {
 }
 
 .mentor_title, .mentor_company {
+  display: block;
   font-family: "Bitter", serif;
   font-size: 12px;
 }
 
 .mentor_company {
-  font-style: italic;
   color: #b4ada0;
+  font-style: italic; 
 }
 
 .mentor_container {

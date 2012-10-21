@@ -1,5 +1,4 @@
-
-section#contact_us {
+#contact_us {
   background: url("http://startx.stanford.edu/assets/textured_background.png") repeat scroll 0 -5px transparent;
   border: none;
   color: #f7f5f3;
@@ -12,7 +11,7 @@ section#contact_us {
       font-size: 24px;
     }
   }
-  form#contact {
+  #contact {
     float: left;
     position: relative;
     width: 40.87%;
@@ -50,7 +49,7 @@ section#contact_us {
     input[type="email"], input[type="text"] {
       height: 15px;
     }
-    input#contact_phone_number {
+    #contact_phone_number {
       display: none;
     }
     textarea {

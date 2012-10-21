@@ -1,4 +1,4 @@
-ul#partners.home {
+#partners.home {
   padding-bottom: 45px;
   li {
     text-align: center;
@@ -22,7 +22,7 @@ ul#partners.home {
   }
 }
 
-ul#program_partners.partners {
+#program_partners.partners {
   padding-bottom: 45px;
   display: block;
   width: 100%;
@@ -64,7 +64,7 @@ ul#program_partners.partners {
   }
 }
 
-ul#resource_partners, ul#legal_partners {
+#resource_partners, #legal_partners {
   display: block;
   width: 100%;
   position: relative;

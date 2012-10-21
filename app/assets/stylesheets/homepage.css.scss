@@ -9,7 +9,6 @@ body {
 
 strong {
   font-family: "ProximaNovaRgBold", "Myriad Pro", sans serif;
-  // font-weight: normal;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,21 +21,35 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 20px;
-}
-
-
-a {
-  color: #23b05d;
-}
-
-a:hover {
+  font-weight: 700;
+  font-size: 36px;
   color: #53514c;
-  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 0 0 0
 }
 
 p {
-  margin: 0 0 30px;
+  margin-bottom: 30px;
+}
+
+.home_text {
+  width: 77.66%;
+  border-top: 10px solid #dddad4;
+  padding-top: 65px;
+  margin-bottom: 55px;
+}
+
+a {
+  color: #23b05d;
+  &:hover {
+    color: #53514c;
+    text-decoration: none;
+  }
 }
 
 hr {
@@ -46,36 +59,20 @@ hr {
   width: 77.66%;
 }
 
-.home_text {
-  width: 77.66%;
-  border-top: 10px solid #dddad4;
-  padding-top: 65px;
-  h2 {
-    font-family: "Bitter", serif;
-    font-weight: 700;
-    font-size: 36px;
-    color: #53514c;
-    margin-bottom: 15px;
-  }
-  p {
-    margin-bottom: 30px;
-  }
-  margin-bottom: 55px;
+section {
+  min-width: 1100px; 
 }
 
+// line marking end of section
+section.home { border-bottom: 1px solid #e1ddd8; }
 
-.container.main {
-  padding-top: 115px;
-  padding-bottom: 30px;
-  min-height: 600px;
-}
+// alternate sections' bg colors
+.even { background-color: #f7f5f3; }
 
+// leave space above carousel for navbar
+.top { padding-top: 98px; }
 
-section.top.home {
-  padding-top: 98px;
-}
-
-.container, .navbar .container {
+.container {
   width: 1150px;
   max-width: 75%;
   min-width: 1100px;
@@ -85,123 +82,111 @@ section.top.home {
   margin: 0 9.13%;
 }
 
-section {
-  min-width: 1100px; 
-}
-
-section.home {
-  border-bottom: 1px solid #e1ddd8;
-}
-
-section.even { 
-  background-color: #f7f5f3;
-}
-
+// unordered lists on the home page are horizontal
 ul.home {
   display: block;
   width: 100%;
   position: relative;
   list-style: none outside none;
   margin: 0;
-  padding-bottom: 130px;
   overflow: hidden;
-  li {
-    .quote {
-      border-top: 5px solid #9bd2f1;
-      margin-bottom: 30px;
-      .quote_box {
-        p {
-          margin-bottom: 0;
-          &.quote_source {
-            margin-top: 25px;
-          }
-        }
-        height: 100%;
-        background-color: #FFFFFF;
-        border: 1px solid #eae9e7;
-        border-bottom: 1px solid #d2d0cf;
-        border-top: none;
-        padding: 20px 15px;
-        position: relative;
-        .quote_source_name {
-          color: #53514c;
-          font-family: "ProximaNovaRgBold", "Myriad Pro", sans serif;
-        }
-        .quote_source_title {
-          color: #b4ada0;
-          font-family: "Bitter", serif;
-          font-style: italic;
-          font-size: 12px;
-        }
-        .quote_triangle_border {
-          width: 0;
-          height: 0;
-          position: absolute;
-          bottom: -21px;
-          left: 15px;
-          border-color: #d2d0cf transparent transparent transparent;
-          border-style: solid;
-          border-width: 10px;
-        }
-        .quote_triangle {
-          width: 0;
-          height: 0;
-          position: absolute;
-          bottom: -19px;
-          left: 15px;
-          border-color: #FFFFFF transparent transparent transparent;
-          border-style: solid;
-          border-width: 10px;
-        }
-      }
-    }
-    display: block;
-    position: relative;
-    float: left;
-    width: 31.90%;
-    p {
-      font-size: 14px;
-    }
-    img {
-      height: 45px;
-      margin-bottom: 10px;
-    }
-  }
-  li.center {
-    margin: 0 2.15%;
+}
+
+ul.home li {
+  display: block;
+  position: relative;
+  float: left;
+  width: 31.90%;
+  p { font-size: 14px;  }
+  img {
+    height: 45px;
+    margin-bottom: 10px;
   }
 }
 
-ul.home_with_button {
+ul.home li.center {
+  margin: 0 2.15%;  
+}
+
+// unordered list for quotes
+ul.home.quotes {
+  padding-bottom: 0px;
+  li { height: 100%;  }
+}
+
+// quote stylings:
+// .quote is the container, holds the box outline and triangle (speech bubble)
+.quote {
+  border-top: 5px solid #9bd2f1;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+// .quote_box is the box outline
+.quote_box {
+  height: 100%;
+  background-color: #FFFFFF;
+  border: 1px solid #eae9e7;
+  border-bottom: 1px solid #d2d0cf;
+  border-top: none;
+  padding: 20px 15px;
+  position: relative;
+}
+
+.quote_triangle_border {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -21px;
+  left: 15px;
+  border-color: #d2d0cf transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.quote_triangle {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: -19px;
+  left: 15px;
+  border-color: #FFFFFF transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+}
+
+// text styling inside quote boxes
+.quote_box p { margin-bottom: 0; }
+
+.quote_source { margin-top: 25px; }
+
+.quote_source_name {
+  color: #53514c;
+  font-family: "ProximaNovaRgBold", "Myriad Pro", sans serif;
+}
+
+.quote_source_title {
+  color: #b4ada0;
+  font-family: "Bitter", serif;
+  font-style: italic;
+  font-size: 12px;
+}
+  
+
+// elements above a button need extra padding
+.home_with_button {
   padding-bottom: 35px;
 }
 
-// Quotations
-ul.quotes.home {
-  padding-bottom: 0px;
-  li {
-    height: 100%;
-    .quote {
-      height: 100%;
-      .quote_box {
-        height: 100%;
-      }
-    }
-  }
-}
 
 // "See More" buttons
-div.see_more {
+.see_more {
   border-top: 1px solid #e1dcd7;
   padding-top: 1px;
   padding-bottom: 60px;
   div {
     border-top: 1px solid #e1dcd7;
     text-align: center;
-    span {
-      color: #ccc7bf;
-      font-style: italic;
-    }
   }
   a, a:hover {
     color: #706D67;
@@ -240,7 +225,8 @@ div.see_more {
   }
 }
 
-section.even div.see_more {
+// styling section for old browsers
+.even .see_more {
   a, a:hover { 
     // Old browsers
     background: #e1dcd7; 
