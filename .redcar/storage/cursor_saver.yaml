@@ -1,0 +1,66 @@
+--- 
+cursor_positions: 
+  - :path: Gemfile
+    :cursor_offset: 206
+    :timestamp: 2012-10-20 21:36:59 -07:00
+  - :path: app/assets/javascripts/bootstrap.js
+    :cursor_offset: 0
+    :timestamp: 2012-09-04 20:46:04 -07:00
+  - :path: app/assets/stylesheets/forms.css.scss
+    :cursor_offset: 789
+    :timestamp: 2012-09-28 20:46:52 -07:00
+  - :path: app/assets/stylesheets/bootstrap_and_overrides.css.less
+    :cursor_offset: 1105
+    :timestamp: 2012-10-21 11:23:40 -07:00
+  - :path: app/assets/stylesheets/buttons.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-09-15 20:13:42 -07:00
+  - :path: app/assets/stylesheets/blog_feed.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-09-09 18:22:56 -07:00
+  - :path: app/assets/stylesheets/application_admin_pages.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-07-31 16:13:12 -07:00
+  - :path: app/assets/stylesheets/company_apps.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-07-19 13:54:04 -07:00
+  - :path: app/assets/stylesheets/demo_day.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-09-29 11:43:26 -07:00
+  - :path: app/assets/stylesheets/dashboard.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-10-14 20:10:44 -07:00
+  - :path: app/assets/stylesheets/judge_pages.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-08-02 11:37:16 -07:00
+  - :path: app/assets/stylesheets/login.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-09-15 21:23:34 -07:00
+  - :path: app/assets/stylesheets/messages.css.scss
+    :cursor_offset: 249
+    :timestamp: 2012-09-17 23:30:38 -07:00
+  - :path: app/assets/stylesheets/apply.css.scss
+    :cursor_offset: 470
+    :timestamp: 2012-09-26 23:45:52 -07:00
+  - :path: app/assets/stylesheets/ratings.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-07-12 13:41:46 -07:00
+  - :path: app/assets/stylesheets/registration.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-09-15 20:56:00 -07:00
+  - :path: app/assets/stylesheets/signed_in.css.scss
+    :cursor_offset: 2180
+    :timestamp: 2012-09-26 23:08:38 -07:00
+  - :path: app/assets/stylesheets/scaffolds.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-08-12 19:57:12 -07:00
+  - :path: app/assets/stylesheets/application_settings.css.scss
+    :cursor_offset: 0
+    :timestamp: 2012-07-28 11:12:42 -07:00
+  - :path: app/assets/stylesheets/applications.css.scss
+    :cursor_offset: 223
+    :timestamp: 2012-10-21 12:09:09 -07:00
+  - :path: app/assets/stylesheets/application.css
+    :cursor_offset: 626
+    :timestamp: 2012-10-21 12:11:38 -07:00
+files_to_retain: 0

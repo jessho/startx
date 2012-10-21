@@ -1,0 +1,40 @@
+//Stylings for the homepage that are non-specific to any section
+
+body {
+  color: #706d67;
+  background-color: #fbf9f9;
+  font-family: "ProximaNovaRgRegular", Arial, sans serif;
+  font-size: 16px;
+}
+
+strong {
+  font-family: "ProximaNovaRgBold", "Myriad Pro", sans serif;
+  // font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+
+a {
+  color: #23b05d;
+}
+
+a:hover {
+  color: #53514c;
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 30px;
+}

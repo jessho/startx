@@ -1,0 +1,287 @@
+// Place all the styles related to the Applications controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#instructions, #instructions li {
+  line-height: 1.5em;
+  font-size: 16px;
+}
+
+table#industry_options {
+  width: 90%;
+  td {
+    padding-right: 20px;
+    width: auto;
+  }
+}
+
+#industry_other {
+  height: 20px;
+  font-size: 16px;
+  width: 200px !important;
+}
+
+#applications_new, #applications_create {
+  background-color: #f3f0ed;
+  h2 {
+    margin-top: 30px;
+  }
+}
+
+form#new_application, form.edit_application {
+  select {
+    width: 40%;
+  }
+  input[type="text"] {
+    width: 39%;
+  }
+  .control-group.error {
+    margin-bottom: 0px;
+  }
+}
+
+#edit_application {
+  background-color: #f4f0ed;
+  border-bottom: 2px solid #e2dfda;
+}
+
+#application_progress_menu, #application_answer_set {
+  float: left;
+  margin-top: 50px;
+}
+
+#application_progress_menu {
+  width: 25%;
+  padding-right: 2%;
+  padding-bottom: 60px;
+  div#status, div#founder_apps_instructions {
+    font-family: "Bitter", serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #aca49c;
+    font-style: italic;
+    &.submitted span {
+      color: #0F753E;
+    }
+    &.closed span {
+      color: #800811;
+    }
+  }
+  div#percent_required { 
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-family: "Bitter", serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+    a {
+      color: inherit;
+      font-size: inherit;
+      margin-bottom: 0px;
+      font-weight: bold;
+    }
+  }
+  #company_app_progress, .founder_apps_progress {
+    box-shadow: 0.5px 1px 0.5px #afafaf;
+    border-top: 1px solid #e2ded9;
+    border-left: 1px solid #e2ded9;
+    border-radius: 10px;
+    background-color: #f7f5f3;
+    width: 85%;
+    height: 40px;
+    position: relative;
+    span.value {
+      line-height: 40px;
+      color: #565b6f;
+      font-size: 20px;
+    }
+    span.color_bar {
+      border-radius: 10px;
+      box-shadow: 0.5px 1px 0.5px #afafaf;
+      background: #b1d6b6; /* Old browsers */
+      /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+      background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IxZDZiNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iIzliY2JhMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzkwYzc5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc1JSIgc3RvcC1jb2xvcj0iIzg3YzM5MSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4NGMxOGUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+      background: -moz-linear-gradient(top,  #b1d6b6 0%, #9bcba2 25%, #90c799 50%, #87c391 75%, #84c18e 100%); /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b1d6b6), color-stop(25%,#9bcba2), color-stop(50%,#90c799), color-stop(75%,#87c391), color-stop(100%,#84c18e)); /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top,  #b1d6b6 0%,#9bcba2 25%,#90c799 50%,#87c391 75%,#84c18e 100%); /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top,  #b1d6b6 0%,#9bcba2 25%,#90c799 50%,#87c391 75%,#84c18e 100%); /* Opera 11.10+ */
+      background: -ms-linear-gradient(top,  #b1d6b6 0%,#9bcba2 25%,#90c799 50%,#87c391 75%,#84c18e 100%); /* IE10+ */
+      background: linear-gradient(to bottom,  #b1d6b6 0%,#9bcba2 25%,#90c799 50%,#87c391 75%,#84c18e 100%); /* W3C */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d6b6', endColorstr='#84c18e',GradientType=0 ); /* IE6-8 */
+    }
+  }
+  .founder_apps_progress {
+    height: 25px;
+    span.value {
+      line-height: 25px;
+      font-size: 18px;
+    }
+  }
+  #company_app_page_navigation, #founder_apps_teammate_navigation {
+    margin-bottom: 30px;
+    margin-left: 20px;
+    a.incomplete {
+      color: #800811;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  a {
+    display: block;
+    color: #0f753e;
+    &:hover {
+      color: #23B05D;
+    }
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    overflow: wrap;
+  }
+  .btn {
+    height: 50px;
+    width: 85%;
+    font-size: 18.5px;
+  }
+  #founder_apps_teammate_navigation {
+    a {
+      display: inline;
+    }
+    div.founder_info {
+      margin-bottom: 5px;
+    }
+    span.founder_name {
+      font-size: 22px;
+    }
+    span.actions {
+      display: inline;
+      a {
+        font-size: 16px;
+        color: #800811;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    span.unverified {
+      font-style: italic;
+      font-size: 16px;
+    }
+  }
+}
+
+#application_answer_set {
+  padding-left: 5%;
+  padding-bottom: 20px;
+  width: 67%;
+  font-size: 20px;
+  font-weight: 300;
+  color: #888383;
+  border-left: 2px solid #e9e4de;
+  font-family: "ProximaNovaRgRegular", "Myriad Pro", Arial, sans-serif;
+  h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #575555;
+    margin-bottom: 50px;
+    float: left;
+  }
+  span.formx_page_number {
+    margin-top: 20px;
+    display: block;
+    float: right;
+  }
+  form {
+    clear: both;
+  }
+  .field {
+    margin-bottom: 25px;
+  }
+  .question_text {
+    line-height: 1em;
+    font-size: 20px;
+    font-weight: 300;
+    color: #4a4a4a;
+    .required {
+      color: red;
+    }
+  }
+  .question_tooltip {
+    font-size: 15px;
+  }
+  input[type="text"], input[type="file"], textarea, select {
+    height: 25px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  select {
+    padding-top: 5px;
+    height: 35px;
+  }
+  input[type="checkbox"] {
+    margin-right: 1%;
+    margin-bottom: 10px;
+  }
+  label.checkbox, label.radio {
+    font-size: 16px;
+    color: inherit;
+    font-weight: inherit;
+  }
+  textarea {
+    height: 150px;
+    resize: none;
+    overflow: auto;
+  }
+  input[type="submit"] {
+    border-radius: 10px;
+    border: 1px solid #c2bcb0;
+    background-color: #f7f5f4;
+    box-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.1); 
+    color: #717372;
+    font-size: 17px;
+    line-height: 18px;
+    margin: 0 2% 0 0;
+    padding: 10px 20px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "ProximaNovaRgRegular", "Myriad Pro", Arial, sans-serif;
+    &:hover {
+      box-shadow: 0.5px 1px 0.5px rgba(0, 0, 0, 0.1) inset;
+    }
+  }
+  input[value="Next"], input[value="Previous"] {
+    float: right;
+    &.last_page {
+      float: none;
+    }
+  }
+  input[value="Next"], input[value="Save"] {
+    color: #4c5650;
+    background: #d1e5d3; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QxZTVkMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjYjFkNGI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMjUlIiBzdG9wLWNvbG9yPSIjYWRkM2IxIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjYTZkMGFjIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjOWVjZGE1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzk5Y2FhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #d1e5d3 0%, #b1d4b5 1%, #add3b1 25%, #a6d0ac 50%, #9ecda5 75%, #99caa0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d1e5d3), color-stop(1%,#b1d4b5), color-stop(25%,#add3b1), color-stop(50%,#a6d0ac), color-stop(75%,#9ecda5), color-stop(100%,#99caa0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #d1e5d3 0%,#b1d4b5 1%,#add3b1 25%,#a6d0ac 50%,#9ecda5 75%,#99caa0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #d1e5d3 0%,#b1d4b5 1%,#add3b1 25%,#a6d0ac 50%,#9ecda5 75%,#99caa0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #d1e5d3 0%,#b1d4b5 1%,#add3b1 25%,#a6d0ac 50%,#9ecda5 75%,#99caa0 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #d1e5d3 0%,#b1d4b5 1%,#add3b1 25%,#a6d0ac 50%,#9ecda5 75%,#99caa0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1e5d3', endColorstr='#99caa0',GradientType=0 ); /* IE6-8 */
+  }
+  input[value="Save"] {
+    &.last_page {
+      float: right;
+    }
+  }
+  form#invite_form {
+    input[type="text"] {
+      font-size: 24px;
+      height: 45px;
+      margin-top: 0px;
+    }
+  }
+}

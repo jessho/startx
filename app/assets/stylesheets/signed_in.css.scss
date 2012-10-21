@@ -1,0 +1,84 @@
+.navbar.signed_in {
+  .navbar-inner {
+    padding-bottom: 25px;
+  }
+  .brand {
+    margin-top: 5px;
+  }
+  .navbar-inner .container span#user_controls {
+    font-size: 14px;
+    margin-right: 9.13%;
+  }
+  .nav {
+    margin-top: 0;
+  }
+  .dropdown-menu li {
+    text-align: left;
+  }
+  .dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+    background: #23b05d; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIzYjA1ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwZjc1M2UiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #23b05d 0%, #0f753e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#23b05d), color-stop(100%,#0f753e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #23b05d 0%,#0f753e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #23b05d 0%,#0f753e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #23b05d 0%,#0f753e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #23b05d 0%,#0f753e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23b05d', endColorstr='#0f753e',GradientType=0 ); /* IE6-8 */
+  }
+}
+
+.navbar.signed_in.backend {
+  position: relative;
+  margin-bottom: 0;
+  font-family: "Bitter", serif;
+  .brand {
+    margin-top: 0;
+  }
+  border-bottom: none;
+  .navbar-inner {
+    border-bottom: none;
+    padding-bottom: 32px;
+  }
+  span#branding {
+    display: block;
+    float: left;
+    margin-top: 22.5px;
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #09713a;
+  }
+  div#user_controls_menu {
+    float: right;
+    text-align: right;
+    margin-right: 9.13%;
+    max-width: 40%;
+    font-size: 14px;
+    span#user_controls {
+      margin-top: 10px;
+      display: block;
+    }
+    a {
+      font-weight: bold;
+      color: #0F753E;
+      &:hover {
+        color: #23B05D;
+      }
+    }
+    .dropdown-menu li a {
+      color: #333333;
+      font-weight: normal;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.container.main.signed_in {
+  padding-top: 0px;
+  min-height: 0;
+}

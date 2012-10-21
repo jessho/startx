@@ -1,0 +1,44 @@
+// Variables
+
+form .clearfix:before, form .clearfix:after {
+  display: inline;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], select, textarea {
+  border-radius: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], textarea {
+  width: 95%;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], select {
+  height: 45px;
+  line-height: 25px;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+select {
+  padding-top: 9px;
+  height: 55px;
+  line-height: 55px;
+  vertical-align: middle;
+}
+
+label.check_box {
+  display: inline;
+  font-size: 16px;
+}
+
+.form-horizontal {
+  .control-label {
+    width: 160px;
+  }
+  .controls {
+    margin-left: 180px;
+  }
+  .form-actions {
+    padding-left: 180px;
+  }
+}
